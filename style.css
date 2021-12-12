@@ -1,0 +1,374 @@
+* {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat' , sans-serif;
+    background-image: url(assets/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+/* header starts here */
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    background-color: #e67e34;
+    height: 70px;
+    margin-top: 0.4%;
+    width: 6%;
+    position: relative;
+    left: 5%;
+    padding: 1.5% 0 0 0.9%;
+}
+
+h1 {
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+h1:hover {
+    color: black;
+}
+
+.nav-bar{
+    width: 40%;
+    margin: 1.7% 0 0 40%;
+    display: flex;
+}
+
+.nav-list {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.nav-list:hover {
+    color: #e67e34;
+    border-bottom: 3px solid black;
+    padding-top: 1%;
+}
+
+/* header ends here */
+
+/* main starts here */
+
+.left-container {
+    width: 20%;
+    margin-top: 7%;
+}
+
+.side-menu li {
+    margin-left: 20%;
+    list-style: none;
+    font-weight: 510;
+    width: 30%;
+    text-align: center;
+    color: hsl(0, 3%, 58%);
+    line-height: 50px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+#contacts-list {
+    cursor: pointer;
+    font-size: 1.4em;
+    margin: 30% 0 0 15%;
+}
+
+#contacts-list a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.side-menu li:hover {
+    color: #e67e34;
+    padding-left: 3%;
+}
+
+#contacts-list a:hover {
+    color: #e67e34;
+}
+
+.full-container {
+    display: flex;
+}
+
+.main-container {
+    width: 40%;
+    margin: auto;
+    margin: 10% 10%;
+}
+
+.main-container h2 {
+    font-family: 'Montserrat';
+    font-size: 2.5em;
+    margin-left: 15px;
+    font-weight: bold;
+    color: #e67e34;
+}
+
+.main-container h3 {
+    margin: 5px 0 0 15px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.btn-1 {
+    margin-top: 10px;
+    background-color: rgb(212, 209, 209);
+    height: 45px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-1 button {
+    background-color: rgb(212, 209, 209);
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    width: 100%;
+    padding-left: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-1 button:hover {
+    margin-right: 10%;
+}
+   
+.right-container {
+    width: 20%;
+    margin-top: 7%;
+}
+
+.btn-2 {
+    margin-top: 5%;
+    background-color: rgb(212, 209, 209);
+    height: 45px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+}
+
+.btn-2 button {
+    position: relative;
+    background-color: rgb(212, 209, 209);
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    width: 100%;
+    border: 0;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.btn-2 button:hover {
+    margin-left: 10%;
+}
+
+#form {
+    margin-top: 10%;
+}
+
+#form .btn-form {
+    width: 35px;
+    height: 35px;
+    font-family: 'Montserrat';
+    border-radius: 50%;
+    border: 3px solid hsl(0, 3%, 78%) ;
+    margin-left: 12%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#form .btn-form:hover {
+    border: 3px solid #e67e34;
+}
+
+#form .qty-input input {
+    border: 0;
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#form .qty-input {
+    margin: 10% 0 0 11%;
+    height: 40px;
+    border: 2px solid hsl(0, 3%, 78%);
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#form .btn-3 {
+    width: 70%;
+    margin: 5% 0 0 11%;
+    height: 40px;
+    border: 0;
+    background-color: #e67e34;
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+/* main ends here */
+
+/* footer-1 starts here */
+
+footer {
+    width: 100%;
+    margin-top: 12%;
+    background-color: #1A1C1F;
+}
+
+footer .footer-info .links-container h2, ul, li {
+    font-family: 'Montserrat';
+}
+
+footer .footer-info {
+    display: flex;
+    margin: 0 0 5% 10%;
+    width: 80%;
+    padding: 4% 0 3%;
+    color: #e67e34;
+    border-bottom: 1px solid #e67e34;
+}
+
+footer .footer-info .links-container h2 {
+    color: white;
+    padding-bottom: 35px;
+    font-size: 1.4em;
+    font-family: 'Montserrat';
+}
+
+footer .footer-info .links-container {
+    width: 20%;
+}
+
+footer .footer-info .links-1, .links-2, .links-3 {
+    display: flex;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    line-height: 30px;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+}
+
+footer .footer-info .links-container li:hover {
+    color: black;
+}
+
+footer .footer-info .links-2 {
+    margin-top: 67.4px;
+}
+
+footer .footer-info .links-3 {
+    width: 300px;
+}
+
+
+/* footer-1 ends here */
+
+
+/* footer-2 starts here */
+
+
+footer .footer-info-2, h3{
+    display: flex;
+    width: 100%;
+    font-family: 'Montserrat';
+}
+
+footer .footer-info-2 .logo-footer {
+    background-color: #e67e34;
+    height: 60px;
+    margin:5px 0 20px;
+    width: 14%;
+    position: relative;
+    left: 14%;
+    padding: 4% 0 0 2.5%;
+    color: white;
+}
+
+footer .footer-info-2 .footer-text {
+    width: 50%;
+    padding-left: 10%;
+    font-size: 0.9em;
+    color: gray;
+}
+
+footer .footer-info-2 .footer-form {
+    text-align: center;
+    padding: 1% 0 0 10%;
+    color: white;
+}
+
+footer .footer-info-2 .footer-form button {
+    margin: 10px 10px;
+    width: 25%;
+    height: 35px;
+    background-color: #e67e34;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+
+/* footer-2 ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
